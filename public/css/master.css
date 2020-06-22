@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.pad {
+    padding: 10px 100px;
+}
+
+.flexbox {
+    width: 100%;
+    margin: 0 auto;
+    min-width: 100%;
+    height: auto;
+}
+
+.flexbox .board {
+    width: 100%;
+    background-color: #d6d8d9;
+    border: 1px solid #c6c8ca;
+    border-radius: 5px;
+    overflow-y: auto;
+    height: 700px;
+}
+
+.flexbox .board .task {
+    padding: 15px 25px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+}
+
+@media(max-width: 768px) {
+    .pad {
+        padding: 15px 40px;
+    }
+
+    .flexbox .board .task {
+        padding: 10px 15px;
+        margin: 10px;
+    }
+}
