@@ -237,6 +237,8 @@ export default {
                 })
                     .then(res => res.json())
                     .then(data => {
+                        alert("Task Deleted. Wait for page reload");
+                        window.location.reload();
                         this.fetchTasks();
                     })
                     .catch(error => console.log(error));
