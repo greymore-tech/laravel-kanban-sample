@@ -1,8 +1,8 @@
-# Kanban Board
+# Laravel Kanban Board
 
-Kanban Board in Laravel using Vue.js
+Kanban Board using Laravel with Vue.js
 
-### Clone and run the follow commands
+### Clone and follow the steps below to use the application (run commands while in project directory)
 
 ##### 1. Change file name .env.example to .env and configure it as needed.
 
