@@ -6,22 +6,22 @@ Kanban Board using Laravel with Vue.js
 
 ##### 1. Change file name .env.example to .env and configure it as needed.
 
-##### 2. Generate Key for Laravel Application
+##### 2. Update Composer (for vendor folder)
+
+```
+$ composer update
+```
+
+##### 3. Generate Key for Laravel Application
 
 ```
 $ php artisan key:generate
 ```
 
-##### 3. Link Storage
+##### 4. Link Storage
 
 ```
 $ php artisan storage:link
-```
-
-##### 4. Update Composer (for vendor folder)
-
-```
-$ composer update
 ```
 
 ##### 5. Install node modules
